@@ -46,7 +46,7 @@ def generate_code_with_codellama(description):
 
 # Streamlit app layout
 st.title("Python Code Generator with CodeLlama")
-st.write("Enter a description of the Python application or code you need. CodeLlama will generate the corresponding Python code.")
+st.write("Enter a description of the pixel art game or functionality you want to create. TogetherAI's Llama LLM will generate the corresponding Python code for building your game.")
 
 # Input box for the user to enter a description
 description = st.text_area("Application or Code Description", placeholder="Describe the application or code you want")
