@@ -57,3 +57,6 @@ if st.button("Generate Code"):
         st.code(generated_code, language="python")
     else:
         st.error("Please provide a valid description.")
+
+st.image("assets/matrixllama.png", use_column_width=True)
+
