@@ -3,6 +3,9 @@ import streamlit as st
 import os
 from together import Together
 
+# Add an image as a header for your app (local image example)
+st.image("code-generator-streamlit/matrixllama.png", use_column_width=True)
+
 os.environ['TOGETHER_API_KEY'] = st.secrets["TOGETHER_API_KEY"]
 
 # Initialize Together client
